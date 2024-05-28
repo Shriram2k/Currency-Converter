@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: "Ubuntu Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height:100vh;
+  background-color: #1B9CFC;
+}
+
+.container{
+  background-color: #58B19F;
+  height: 650px;
+  width: 600px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  box-shadow:0 5px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+  font-weight: 400;
+  padding: 10px 0px;
+  font-size: 50px;
+  margin-bottom: 10px;
+  border-top: 2px ridge #ccc;
+  border-bottom: 2px ridge #ccc;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.box{
+  width: 100%;
+  height: 300px;
+  background-image: url(./assets/Logo.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.input-container{
+padding: 10px;
+margin-top: 10px;
+}
+
+label{
+  margin: 5px 5px;
+  font-weight: 500;
+  display: contents;
+}
+
+input{
+  float: right;
+  width: 50%;
+  height: 30px;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+select{
+  display: inline;
+  float: right;
+  padding: 5px;
+  outline: none;
+  background-color: #1B9CFC;
+  border-radius: 8px;
+  width: 52%;
+  font-size: 18px;
+  transition: ease-in-out 0.3s;
+}
+.result{
+  margin: 30px 0px;
+  padding: 10px;
+  border: 5px double #0b2f49;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.result p{
+  margin: 10px 0px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+input:focus,
+select:focus{
+  border-color: #1B9CFC;
+}
+footer{
+  text-align: center;
+}
